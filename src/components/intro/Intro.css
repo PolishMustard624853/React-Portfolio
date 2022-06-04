@@ -1,7 +1,7 @@
 .i {
     display: flex;
     height: 100vh;
-    /* background-color: rgb(92, 0, 92); */
+    background-color: rgb(255, 196, 0);
 }
 
 .i-left {
@@ -14,6 +14,7 @@
 .i-right {
     flex: 1;
     position: relative;
+    overflow: hidden;
 }
 
 .i-left-wrapper {
@@ -28,15 +29,23 @@
 .i-intro {
     font-size: 30px;
     font-weight: 500;
+    color: rgb(1, 198, 212);
 }
 
 .i-name {
     font-size: 60px;
+    color: rgb(138, 0, 0);
 }
 
 .i-title {
     height: 50px;
     overflow: hidden;
+}
+
+.i-desc {
+    font-size: 18px;
+    color:rgb(138, 0, 0);
+    font-weight: 600;
 }
 
 .i-title-wrapper {
@@ -63,10 +72,9 @@
     height: 50px;
     font-size: 30px;
     font-weight: bold;
-    color: rgb(0, 238, 255);
+    color: rgb(1, 198, 212);
     /* background-color: rgb(98, 0, 0); */
     display: flex;
-    align-items: center;
 }
 
 .i-img {
@@ -74,6 +82,8 @@
     height: 100%;
     object-fit: cover;
     position: absolute;
+    overflow: hidden;
+    border-radius: 35px;
 }
 
 .i-bg {
