@@ -1,10 +1,14 @@
 // import React from 'react'
 
-import Intro from "./components/intro/Intro"
+import About from './components/intro/about/About'
+import Intro from './components/intro/Intro'
 
 const App = () => {
   return (
-    <div><Intro/></div>
+    <div>
+      <Intro/>
+      <About/>
+    </div>
   )
 }
 

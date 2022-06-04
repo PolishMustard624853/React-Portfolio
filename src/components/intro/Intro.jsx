@@ -14,17 +14,17 @@ const Intro = () => {
                 <div className='i-title-item'>Front-End Web Developer</div>
                 <div className='i-title-item'>UI/UX Designer</div>
                 <div className='i-title-item'>HTML/CSS</div>
-                <div className='i-title-item'>React Designer</div>
-                <div className='i-title-item'>JavaScript Manipulator</div>
+                <div className='i-title-item'>React</div>
+                <div className='i-title-item'>JavaScript</div>
               </div>
             </div>
-            <div className="i-desc">
+            <p className='i-desc'>
               I am a front end Web Developer UI/UX Designer using programs such as HTML/CSS, JavaScript &amp; React.
-            </div>
+            </p>
           </div>
         </div>
         <div className='i-right'>
-          <div className="--bg"></div>
+          <div className='i-bg'></div>
           <img src={Me} alt='' className='i-img' />
         </div>
     </div>

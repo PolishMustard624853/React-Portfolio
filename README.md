@@ -8,3 +8,4 @@ https://docs.swmansion.com/react-native-reanimated/docs/next/api/LayoutAnimation
 
 https://formidable.com/open-source/react-animations/
 
+https://bennettfeely.com/clippy/
