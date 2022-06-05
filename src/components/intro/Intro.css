@@ -30,11 +30,13 @@
     font-size: 30px;
     font-weight: 500;
     color: rgb(1, 198, 212);
+    font-weight: 700;
 }
 
 .i-name {
     font-size: 60px;
     color: rgb(138, 0, 0);
+    font-weight: 700;
 }
 
 .i-title {

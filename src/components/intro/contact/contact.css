@@ -1,0 +1,94 @@
+.c {
+    display: flex;
+    height: 100vh;
+    position: relative;
+    background-color:  rgb(1, 198, 212);
+}
+
+.c-bg {
+    width: 20px;
+    height: 100%;
+    background-color: rgb(138, 0, 0);
+    position: absolute;
+}
+
+.c-wrapper {
+    padding: 50px;
+    display: flex;
+}
+
+.c-left {
+    flex: 1;
+}
+
+.c-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-title {
+    font-size: 40px;
+    width: 8%;
+}
+
+.c-info-item {
+    color: rgb(138, 0, 0);
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+    font-weight: 600;
+    width: 70%;
+}
+
+.c-icon {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.c-desc {
+    font-weight: 300;
+}
+
+form {
+    margin-top: 20px;
+    margin: 125px;
+}
+
+input {
+    width: 50%;
+    height: 50px;
+    font-weight: 800;
+    color: rgb(0, 255, 247);
+    background-color: rgb(138, 0, 0);
+    border: solid 2px rgb(255, 196, 0);
+    border-radius: 10px;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+textarea {
+    width: 100%;
+    font-weight: 800;
+    margin: 10px 0px;
+    font-size: 14px;
+    color: rgb(0, 255, 247);
+    background-color: rgb(138, 0, 0);
+    border: solid 2px rgb(255, 196, 0);
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+button {
+    font-weight: 800;
+    padding: 15px;
+    color: rgb(138, 0, 0);
+    background-color: rgb(255, 196, 0);
+    border: solid 2px rgb(138, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+}
