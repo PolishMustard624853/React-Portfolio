@@ -3,6 +3,7 @@ import './intro.css'
 import Me from '../../img/me.jpg'
 
 
+
 const Intro = () => {
   return (
     <div className='i'>
@@ -27,7 +28,6 @@ const Intro = () => {
           </li>
         </ul>
         </div>
-
         </nav>
       </div>
         <div className='i-left'>

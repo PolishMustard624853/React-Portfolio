@@ -51,6 +51,8 @@ ul {
     flex: 1;
     position: relative;
     overflow: hidden;
+    border-radius: 35px 0px 0px 35px;
+    box-shadow: 0 4px 4px 4px rgba(9, 9, 9, 0.23);
 }
 
 .i-left-wrapper {

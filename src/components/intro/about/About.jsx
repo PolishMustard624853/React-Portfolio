@@ -20,7 +20,6 @@ const About = () => {
 
         <p className='a-sub'>
         I am a front end Web Developer UI/UX Designer using programs such as HTML, CSS, JavaScript &amp; React.
-
         </p>
         <p className='a-desc'>
         “I am enough of an artist to draw freely upon my imagination. Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.”

@@ -3,8 +3,8 @@ import App from './App';
 import React from 'react';
 
 ReactDOM.render(
-    // <React.StrictMode>
+    // <BrowserRouter>
         <App />,
-    /* </React.StrictMode>, */
+    /* </BrowserRouter>, */
     document.querySelector('#root')
 );

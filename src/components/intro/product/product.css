@@ -5,6 +5,7 @@
     border: 2px solid rgb(255, 196, 0);
     border-radius: 15px;
     overflow: hidden;
+    box-shadow: 0 4px 4px 4px rgba(9, 9, 9, 0.23);
 }
 
 .p-browser {
