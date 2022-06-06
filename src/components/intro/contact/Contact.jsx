@@ -61,11 +61,6 @@ const Contact = () => {
                 </form>
             </div>
             <div>
-            <footer>
-                <h3>
-                    <p>Hecho con amor :)</p>
-                </h3>
-            </footer>
             </div>
         </div>
     </div>

@@ -5,6 +5,31 @@
     background-color:  rgb(1, 198, 212);
 }
 
+.navigation-menu ul {
+    padding: 0;
+  }
+  .navigation-menu li {
+    list-style-type: none;
+    margin: 0 1rem;
+  }
+  .navigation-menu li {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+  }
+
+  .navigation {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0.5rem 0rem;
+    background-color: rgb(1, 198, 212);
+    color: black;
+    border-radius: 0px 20px 20px;
+    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+  }
+
 .c-bg {
     width: 20px;
     height: 100%;
@@ -22,6 +47,8 @@
 }
 
 .c-right {
+    color: rgb(138, 0, 0);
+    font-size: 18px;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -30,6 +57,7 @@
 }
 
 .c-title {
+    color: rgb(138, 0, 0);
     font-size: 40px;
     width: 8%;
 }
@@ -44,8 +72,8 @@
 }
 
 .c-icon {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     margin-right: 20px;
 }
 

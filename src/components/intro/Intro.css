@@ -4,6 +4,15 @@
     background-color: rgb(255, 196, 0);
 }
 
+.header {
+flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 20px;
+}
+
 .i-left {
     flex: 1;
     display: flex;
