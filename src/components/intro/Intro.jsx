@@ -7,23 +7,23 @@ const Intro = () => {
   return (
     <div className='i'>
       <div className='navigation'>
-      <nav className="justify-content-end" style={{ width: "100%" }}>
-      <div className="navigation-menu">
+      <nav className='justify-content-end' style={{ width: '100%' }}>
+      <div className='navigation-menu'>
         <ul>
           <li>
-            <a href='/home' style={{ textDecoration: 'none' }} >Home</a>
+            <a href='./about' style={{ textDecoration: 'none' }} >About</a>
           </li>
           <br>
           
           </br>
           <li>
-            <a href='/about' style={{ textDecoration: 'none' }} >About</a>
+            <a href={'./product'} style={{ textDecoration: 'none' }} >Projects</a>
           </li>
           <br>
           
           </br>
           <li>
-            <a href='/contact' style={{ textDecoration: 'none' }} >Contact</a>
+            <a href={'/contact' }style={{ textDecoration: 'none' }} >Contact</a>
           </li>
         </ul>
         </div>

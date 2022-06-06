@@ -13,6 +13,33 @@ ul {
     font-size: 20px;
 }
 
+.navigation-menu ul {
+    padding: 0;
+}
+
+.navigation-menu li {
+    list-style-type: none;
+    margin: 0 1rem;
+}
+
+.navigation-menu li {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0.5rem 0rem;
+    background-color: rgb(1, 198, 212);
+    color: black;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+}
+
 .i-left {
     flex: 1;
     display: flex;
@@ -106,3 +133,9 @@ ul {
     top: 0;
     right: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .navigation-menu ul {
+      display: none;
+    }
+  }
