@@ -3,7 +3,6 @@ import './intro.css'
 import Me from '../../img/me.jpg'
 
 
-
 const Intro = () => {
   return (
     <div className='i'>
@@ -15,7 +14,6 @@ const Intro = () => {
             <a href='./about' style={{ textDecoration: 'none' }} >About</a>
           </li>
           <br>
-          
           </br>
           <li>
             <a href={'./product'} style={{ textDecoration: 'none' }} >Projects</a>
