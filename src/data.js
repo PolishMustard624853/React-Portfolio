@@ -7,7 +7,7 @@ export const products = [
     },
     {
         id: 2,
-        img: "https://www.incimages.com/uploaded_files/image/1920x1080/getty_525032572_383207.jpg",
+        img: "https://images.pexels.com/photos/7594241/pexels-photo-7594241.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         link: "https://nu-project2-big-bet-sports.herokuapp.com/",
     },
 ];

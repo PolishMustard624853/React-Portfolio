@@ -11,18 +11,18 @@ const Intro = () => {
       <div className='navigation-menu'>
         <ul>
           <li>
-            <a href='./about' style={{ textDecoration: 'none' }} >About</a>
+            <a href='#about' style={{ textDecoration: 'none' }} >About</a>
           </li>
           <br>
           </br>
           <li>
-            <a href={'./product'} style={{ textDecoration: 'none' }} >Projects</a>
+            <a href={'#product'} style={{ textDecoration: 'none' }} >Projects</a>
           </li>
           <br>
           
           </br>
           <li>
-            <a href={'/contact' }style={{ textDecoration: 'none' }} >Contact</a>
+            <a href={'#contact' }style={{ textDecoration: 'none' }} >Contact</a>
           </li>
         </ul>
         </div>

@@ -11,6 +11,7 @@ import Github from '../../../assets/github.png'
 
 const Contact = () => {
   return (
+<section id='contact'>
     <div className='c'>
         <div className='c-bg'></div>
         <div className='c-wrapper'>
@@ -53,10 +54,10 @@ const Contact = () => {
                     <b>*This form does not yet work*</b>
                 </p>
                 <form>
-                    <input type="text" placeholder='Name' name='user_name'/>
-                    <input type="text" placeholder='Subject' name='subject'/>
-                    <input type="text" placeholder='Email' name='email'/>
-                    <textarea rows="5" placeholder='Message' name='message'></textarea>
+                    <input type='text' placeholder='Name' name='user_name'/>
+                    <input type='text' placeholder='Subject' name='subject'/>
+                    <input type='text' placeholder='Email' name='email'/>
+                    <textarea rows='5' placeholder='Message' name='message'></textarea>
                     <button>Submit</button>
                 </form>
             </div>
@@ -64,7 +65,8 @@ const Contact = () => {
             </div>
         </div>
     </div>
-  )
+</section>
+)
 }
 
 export default Contact
