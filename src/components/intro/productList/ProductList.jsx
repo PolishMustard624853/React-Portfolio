@@ -11,6 +11,10 @@ const ProductList = () => {
             <p className='pl-desc'>
             “Your eyes can deceive you, don’t trust them.”
             <br></br>
+            <br></br>
+          <h3>Not Financial Advice(left)</h3>
+          <br></br>
+          <h3>Big Bet Sports Club(right)</h3>
             </p>
         </div>
         <div className='pl-list'>

@@ -79,7 +79,11 @@
     display: none;
     }
 
-    .a-right{
+    .a-right {
     padding: 20px;
+    }
+
+    .a-desc {
+    
     }
 }
