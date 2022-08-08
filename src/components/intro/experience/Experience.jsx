@@ -7,11 +7,11 @@ const Experience = () => {
   return (
     <section id='experience'>
       <h1>My Experience</h1>
-      <div className='container c-cert'>
+
             <div className='c-card bg'>
                 <img src={Certification} alt="" className='c-img' />
             </div>
-            </div>
+
 
       
       <div className="container experience__container">
