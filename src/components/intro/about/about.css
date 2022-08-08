@@ -30,8 +30,9 @@
     border-radius: 35px;
     position: relative;
     overflow: hidden;
-    box-shadow: 0 4px 4px 4px rgba(9, 9, 9, 0.23);
+    box-shadow: 0 3px 3px 3px rgba(9, 9, 9, 0.23);
 }
+
 
 .a-img {
     width: 100%;
@@ -42,7 +43,9 @@
 
 .a-title {
     font-weight: 900;
+    font-size: 68px;
     color: rgb(0, 204, 204);
+    text-shadow: -1px 1px 3px rgba(133, 0, 0, 0.75);
 }
 
 .a-sub {
@@ -83,7 +86,4 @@
     padding: 20px;
     }
 
-    .a-desc {
-    
-    }
 }

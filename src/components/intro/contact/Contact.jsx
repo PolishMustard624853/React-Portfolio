@@ -4,10 +4,7 @@ import Email from '../../../assets/email.png'
 import Address from '../../../assets/address.png'
 import Twitter from '../../../assets/twitter.png'
 import Github from '../../../assets/github.png'
-
-
-
-
+import Certification from '../../../img/certification.jpg'
 
 const Contact = () => {
   return (
@@ -46,20 +43,9 @@ const Contact = () => {
                 </div>
             </div>
             <div className='c-right'>
-                <p className='c-desc'>
-                    <b>Feel free to get in touch with me to collaborate on some projects!</b>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <b>*This form does not yet work*</b>
-                </p>
-                <form>
-                    <input type='text' placeholder='Name' name='user_name'/>
-                    <input type='text' placeholder='Subject' name='subject'/>
-                    <input type='text' placeholder='Email' name='email'/>
-                    <textarea rows='5' placeholder='Message' name='message'></textarea>
-                    <button>Submit</button>
-                </form>
+            <div className='c-card bg'>
+                <img src={Certification} alt="" className='c-img' />
+            </div>
             </div>
             <div>
             </div>

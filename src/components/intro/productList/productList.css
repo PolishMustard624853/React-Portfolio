@@ -4,20 +4,23 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: rgb(1, 198, 212);
+    border: solid 2px rgb(255, 196, 0);
+    background-color: rgb(61, 0, 85);
 }
 
 .pl-texts {
     font-size: 18px;
     font-weight: 600;
     width: 65%;
-    color: rgb(138, 0, 0);
+    color: rgb(255, 210, 63);
 }
 
 .pl-title {
     font-size: 50px;
+    border-radius: 10px;
     font-weight: 600;
-    color: rgb(255, 196, 0);
+    color: rgb(0, 161, 173);
+    text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.915);
 }
 
 pl-desc {

@@ -9,12 +9,12 @@ const ProductList = () => {
             <h1 className='pl-title'>Collaborative Projects</h1>
             <br></br>
             <p className='pl-desc'>
-            “Your eyes can deceive you, don’t trust them.”
-            <br></br>
-            <br></br>
-          <h3>Not Financial Advice(left)</h3>
+          <h3>Not Financial Advice (left)</h3>
           <br></br>
-          <h3>Big Bet Sports Club(right)</h3>
+          <h3>Big Bet Sports Club (right)</h3>
+            <br></br>
+            <br></br>
+            “Your eyes can deceive you, don’t trust them.”
             </p>
         </div>
         <div className='pl-list'>

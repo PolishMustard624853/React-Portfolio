@@ -34,10 +34,10 @@ ul {
     align-items: center;
     position: relative;
     padding: .3rem .3rem;
-    background-color: rgb(1, 198, 212);
-    color: black;
-    border-radius: 15px 15px 15px 15px;
-    box-shadow: 0 2px 2px 2px rgba(231, 0, 0, 0.23);
+    background-color:  rgb(0, 161, 173);
+    color: rgb(138, 0, 0);
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0px 2px 2px rgba(0, 0, 0, 0.262);
 }
 
 .i-left {
@@ -52,13 +52,12 @@ ul {
     position: relative;
     overflow: hidden;
     border-radius: 35px 0px 0px 35px;
-    box-shadow: 0 4px 4px 4px rgba(9, 9, 9, 0.23);
+    box-shadow: 0 6px 6px 6px rgba(9, 9, 9, 0.23);
 }
 
 .i-left-wrapper {
     padding: 50px;
     height: 50%;
-    /* background-color: rgb(134, 0, 87); */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -66,15 +65,17 @@ ul {
 
 .i-intro {
     font-size: 30px;
-    font-weight: 500;
-    color: rgb(1, 198, 212);
+    font-weight: 100;
+    color: rgb(0, 161, 173);
     font-weight: 700;
 }
 
 .i-name {
-    font-size: 60px;
+    font-size: 100px;
     color: rgb(138, 0, 0);
-    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    text-shadow: -1px 1px 3px rgba(0, 242, 255, 0.75);
 }
 
 .i-title {
@@ -82,8 +83,8 @@ ul {
     height: 50px;
     overflow: hidden;
     justify-content: center;
-    box-shadow: 0 4px 4px 4px rgba(9, 9, 9, 0.23);
-    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+    border-radius: 7px 7px 7px 7px;
 }
 
 .i-desc {
@@ -118,8 +119,7 @@ ul {
     height: 50px;
     font-size: 30px;
     font-weight: bold;
-    color: rgb(1, 198, 212);
-    /* background-color: rgb(98, 0, 0); */
+    color: rgb(0, 161, 173);
     display: flex;
 }
 

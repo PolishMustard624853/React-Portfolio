@@ -4,8 +4,7 @@ import './footer.css'
 const Footer = () => {
   return (
     <div className='f'>
-        Hecho con amor :)
-        &copy; 2022
+      <h2>&copy; Connor Semb, 2022</h2>
     </div>
   )
 }

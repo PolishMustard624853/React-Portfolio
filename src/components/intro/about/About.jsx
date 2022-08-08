@@ -20,7 +20,7 @@ const About = () => {
         <h1 className='a-title'>About Me</h1>
 
         <p className='a-sub'>
-        I am a front end Web Developer UI/UX Designer using programs such as HTML, CSS, JavaScript &amp; React.
+        I am a Full Stack Web Developer focusing on HTML, CSS, JavaScript, React, &amp; MERN Stack. I recently completed the Full Stack Web Development Coding Boot Camp through Northwestern University, 2022.
         </p>
         <p className='a-desc'>
         “I am enough of an artist to draw freely upon my imagination. Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.”

@@ -41,6 +41,8 @@ const Intro = () => {
                 <div className='i-title-item'>JavaScript</div>
               </div>
             </div>
+
+            <br />
             <p className='i-desc'>
             “Two things are infinite: the universe and human stupidity; 
             and I'm not sure about the universe.” ― Albert Einstein
