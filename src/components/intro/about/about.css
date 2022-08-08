@@ -1,3 +1,7 @@
+:root {
+    --transition: all 400ms ease;
+}
+
 .a {
     height: 100vh;
     display: flex;
@@ -15,24 +19,36 @@
 
 .a-right {
     flex: 1;
+    justify-content: center;
 }
 
 .a-card.bg {
     position: absolute;
-    top: 25px;
-    left: 25px;
+    top: 50px;
+    left: 50px;
     background-color: rgb(138, 0, 0);
+    transform: rotate(10deg);
+    transition: var(--transition);
 }
 
 .a-card {
-    width: 60%;
+    width: 80%;
     height: 70vh;
     border-radius: 35px;
     position: relative;
     overflow: hidden;
     box-shadow: 0 3px 3px 3px rgba(9, 9, 9, 0.23);
+    transform: rotate(10deg);
+    transition: var(--transition);
 }
 
+.a-card.bg:hover {
+    transform: rotate(0);
+}
+
+.a-card:hover {
+    transform: rotate(0);
+}
 
 .a-img {
     width: 100%;
@@ -40,6 +56,7 @@
     object-fit: cover;
     border-radius: 40px;
 }
+
 
 .a-title {
     font-weight: 900;
@@ -49,18 +66,18 @@
 }
 
 .a-sub {
-    /* margin: 20px 0px; */
+    margin: 20px 0px;
     padding: 20px;
     font-size: 18px;
     font-weight: 700;
-    color: rgb(138, 0, 0);
+    color:rgb(61, 0, 85);
 }
 
 .a-desc{
     padding: 20px;
     font-weight: 700;
     font-size: 18px;
-    color: rgb(138, 0, 0);
+    color:rgb(61, 0, 85);
 }
 
 @media screen and (max-width:480px) {

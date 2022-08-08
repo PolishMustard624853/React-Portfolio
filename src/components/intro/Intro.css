@@ -1,7 +1,9 @@
 .i {
     display: flex;
     height: 100vh;
-    background-color: rgb(255, 196, 0);
+    /* background: radial-gradient(ellipse at top, #e66465, transparent),
+    radial-gradient(ellipse at bottom, #4d9f0c, transparent); */
+    background-image: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);
 }
 
 .header {
@@ -11,33 +13,6 @@ flex-direction: column;
 ul {
     list-style-type: none;
     font-size: 20px;
-}
-
-.navigation-menu ul {
-    padding: 5px;
-}
-
-.navigation-menu li {
-    list-style-type: none;
-    margin: 0 1rem;
-}
-
-.navigation-menu li {
-    text-decoration: none;
-    display: block;
-    width: 100%;
-}
-
-.navigation a{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    position: relative;
-    padding: .3rem .3rem;
-    background-color:  rgb(0, 161, 173);
-    color: rgb(138, 0, 0);
-    border-radius: 5px 5px 5px 5px;
-    box-shadow: 0 0px 2px 2px rgba(0, 0, 0, 0.262);
 }
 
 .i-left {
@@ -66,16 +41,17 @@ ul {
 .i-intro {
     font-size: 30px;
     font-weight: 100;
-    color: rgb(0, 161, 173);
+    color:rgb(61, 0, 85);
+    text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.402);
     font-weight: 700;
 }
 
 .i-name {
     font-size: 100px;
-    color: rgb(138, 0, 0);
+    color: rgb(0, 204, 204);
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
-    text-shadow: -1px 1px 3px rgba(0, 242, 255, 0.75);
+    text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.402);
 }
 
 .i-title {
@@ -88,8 +64,8 @@ ul {
 }
 
 .i-desc {
-    font-size: 18px;
-    color:rgb(138, 0, 0);
+    font-size: 20px;
+    color:rgb(61, 0, 85);
     font-weight: 600;
 }
 
@@ -119,7 +95,8 @@ ul {
     height: 50px;
     font-size: 30px;
     font-weight: bold;
-    color: rgb(0, 161, 173);
+    /* background-color:rgb(61, 0, 85); */
+    color:rgb(61, 0, 85);
     display: flex;
 }
 

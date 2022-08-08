@@ -6,28 +6,6 @@ import Me from '../../img/me.jpg'
 const Intro = () => {
   return (
     <div className='i'>
-      <div className='navigation'>
-      <nav className='justify-content-end' style={{ width: '100%' }}>
-      <div className='navigation-menu'>
-        <ul>
-          <li>
-            <a href='#about' style={{ textDecoration: 'none' }} >About</a>
-          </li>
-          <br>
-          </br>
-          <li>
-            <a href={'#product'} style={{ textDecoration: 'none' }} >Projects</a>
-          </li>
-          <br>
-          
-          </br>
-          <li>
-            <a href={'#contact' }style={{ textDecoration: 'none' }} >Contact</a>
-          </li>
-        </ul>
-        </div>
-        </nav>
-      </div>
         <div className='i-left'>
           <div className='i-left-wrapper'>
             <h2 className='i-intro'>Welcome! My name is </h2>

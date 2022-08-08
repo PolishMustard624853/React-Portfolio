@@ -4,7 +4,6 @@ import Email from '../../../assets/email.png'
 import Address from '../../../assets/address.png'
 import Twitter from '../../../assets/twitter.png'
 import Github from '../../../assets/github.png'
-import Certification from '../../../img/certification.jpg'
 
 const Contact = () => {
   return (
@@ -41,11 +40,6 @@ const Contact = () => {
                         </a>
                     </div>
                 </div>
-            </div>
-            <div className='c-right'>
-            <div className='c-card bg'>
-                <img src={Certification} alt="" className='c-img' />
-            </div>
             </div>
             <div>
             </div>
