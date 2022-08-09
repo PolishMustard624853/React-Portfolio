@@ -11,6 +11,8 @@
 .a-left {
     flex: 1;
     display: flex;
+    top: 48px;
+    left: 24px;
     align-items: center;
     justify-content: center;
     position: relative;
@@ -62,7 +64,7 @@
     font-weight: 900;
     font-size: 68px;
     color: rgb(0, 204, 204);
-    text-shadow: -1px 1px 3px rgba(133, 0, 0, 0.75);
+    text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.572);
 }
 
 .a-sub {
@@ -70,14 +72,14 @@
     padding: 20px;
     font-size: 18px;
     font-weight: 700;
-    color:rgb(61, 0, 85);
+    color: rgb(0, 255, 255);
 }
 
 .a-desc{
     padding: 20px;
     font-weight: 700;
     font-size: 18px;
-    color:rgb(61, 0, 85);
+    color: rgb(0, 255, 255);
 }
 
 @media screen and (max-width:480px) {

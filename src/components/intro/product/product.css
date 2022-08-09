@@ -2,7 +2,9 @@
     width: 30%;
     height: 30vh;
     margin: 20px 10px;
-    border: solid 2px  rgb(255, 196, 0);
+    /* border: solid 2px  rgb(255, 196, 0); */
+    background: linear-gradient(#fff, #fff) padding-box, linear-gradient(45deg, purple, orange) border-box;
+    border: 5px solid transparent;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 4px 4px rgba(9, 9, 9, 0.23);

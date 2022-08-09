@@ -1,8 +1,6 @@
 .i {
     display: flex;
     height: 100vh;
-    /* background: radial-gradient(ellipse at top, #e66465, transparent),
-    radial-gradient(ellipse at bottom, #4d9f0c, transparent); */
     background-image: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);
 }
 
@@ -27,7 +25,7 @@ ul {
     position: relative;
     overflow: hidden;
     border-radius: 35px 0px 0px 35px;
-    box-shadow: 0 6px 6px 6px rgba(9, 9, 9, 0.23);
+    box-shadow: 0 0 6px 6px rgba(9, 9, 9, 0.23);
 }
 
 .i-left-wrapper {
@@ -41,31 +39,34 @@ ul {
 .i-intro {
     font-size: 30px;
     font-weight: 100;
-    color:rgb(61, 0, 85);
+    color: rgb(0, 255, 255);
     text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.402);
     font-weight: 700;
 }
 
 .i-name {
     font-size: 100px;
-    color: rgb(0, 204, 204);
+    color: rgb(0, 255, 255);
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
     text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.402);
 }
 
 .i-title {
-    /* display:flex; */
+    display:flex;
     height: 50px;
     overflow: hidden;
     justify-content: center;
+    border: 5px solid transparent;
+    /* border-image: linear-gradient(45deg, purple, orange, rgb(0, 255, 255)) 1; */
+    border-image: linear-gradient(135deg, rgb(255, 251, 0), rgb(251,105,98), purple, rgb(74,234,220)) 1;
     box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
-    border-radius: 7px 7px 7px 7px;
+    /* background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)) padding-box, linear-gradient(45deg, purple, orange) border-box; */
 }
 
 .i-desc {
     font-size: 20px;
-    color:rgb(61, 0, 85);
+    color: rgb(0, 255, 255);
     font-weight: 600;
 }
 
@@ -94,9 +95,9 @@ ul {
     white-space: nowrap;
     height: 50px;
     font-size: 30px;
-    font-weight: bold;
+    /* font-weight: bold; */
     /* background-color:rgb(61, 0, 85); */
-    color:rgb(61, 0, 85);
+    color: rgb(0, 255, 255);
     display: flex;
 }
 

@@ -7,10 +7,11 @@ const Experience = () => {
   return (
     <section id='experience'>
       <h1>My Experience</h1>
-
-            <div className='c-card bg'>
-                <img src={Certification} alt="" className='c-img' />
+          <section>
+            <div className='e-card bg'>
+                <img src={Certification} alt="" className='e-img' />
             </div>
+          </section>
 
 
       
@@ -66,13 +67,6 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
                 <h2>MongoDB</h2>
-
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h2>PHP</h2>
 
               </div>
             </article>
