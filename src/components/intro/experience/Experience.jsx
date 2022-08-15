@@ -12,8 +12,6 @@ const Experience = () => {
                 <img src={Certification} alt="" className='e-img' />
             </div>
           </section>
-
-
       
       <div className="container experience__container">
         <div className="experience__frontend">

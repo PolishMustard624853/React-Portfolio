@@ -6,7 +6,6 @@ import Bub from '../../../img/bubbleNebula.jpg'
 const About = () => {
   return (
     <section id='about'>
-    <div className='i'>
     <div className='a'>
         <div className='a-left'>
             <div className='a-card bg'>
@@ -16,6 +15,7 @@ const About = () => {
               <img src={Neb} alt="" className='i-img' />
             </div>
         </div>
+        
         <div className='a-right'>
         <h1 className='a-title'>About Me</h1>
 
@@ -28,7 +28,6 @@ const About = () => {
         </p>
         </div>
         </div>
-    </div>
     </section>
   )
 }
