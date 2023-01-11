@@ -1,6 +1,9 @@
 #experience {
   /* background-color: rgb(61, 0, 85); */
-  background-image: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);
+  /* background-image: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(251, 102, 33) 100%); */
+  background-color:rgb(30, 0, 49);
+  border: 2px solid;
+  border-image: linear-gradient(135deg, rgb(74,234,220), rgb(222, 65, 198), rgb(150, 0, 143), purple) 1;
 }
 
 .experience__container {
@@ -54,12 +57,12 @@
   }
   
   .e-img {
-    position: relative;
-    /* border-radius: 35px; */
-    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)) padding-box, linear-gradient(45deg, purple, orange) border-box;
-    border: 5px solid transparent;
-    border-radius: 8px;
-    overflow: hidden;
+  position: relative;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)) padding-box, linear-gradient(45deg,  rgb(255, 0, 225), rgb(232, 24, 208), rgb(195, 0, 254)) border-box;
+  
+  border: 5px solid transparent;
+  border-radius: 8px;
+  overflow: hidden;
   width: 50%;
   height: 50%;
   top: 50%;
