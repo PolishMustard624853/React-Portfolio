@@ -1,8 +1,8 @@
 :root {
-    --color-bg: #1f1f38;
+    --color-bg: rgb(221, 2, 255);
     --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
-    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-primary: rgb(73, 220, 227);
+    --color-primary-variant: rgb(0, 149, 255);
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
   
