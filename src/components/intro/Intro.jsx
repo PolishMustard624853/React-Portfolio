@@ -14,11 +14,11 @@ const Intro = () => {
             <h1 className='i-nameJapan'>コナー センブ</h1>
             <div className='i-title'>
               <div className='i-title-wrapper'>
-                <div className='i-title-item'>Front-End Web Developer</div>
-                <div className='i-title-item'>UI/UX Designer</div>
-                <div className='i-title-item'>HTML/CSS</div>
-                <div className='i-title-item'>React</div>
+                <div className='i-title-item'>HTML</div>
+                <div className='i-title-item'>CSS</div>
                 <div className='i-title-item'>JavaScript</div>
+                <div className='i-title-item'>React</div>
+                <div className='i-title-item'>MongoDB</div>
               </div>
             </div>
 

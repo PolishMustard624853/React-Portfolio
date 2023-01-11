@@ -76,14 +76,12 @@ ul {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    /* border-style: solid;
-    border-radius: 10% 0% 0% 70%;
-    border-image: linear-gradient(135deg, rgb(255, 106, 0), rgb(212, 16, 203),  rgb(74,234,220)) 1; */
 }
 
 
 .i-desc {
     font-size: 20px;
+    font-style: italic;
     color: rgb(0, 255, 255);
     font-weight: 200;
 }
@@ -91,9 +89,6 @@ ul {
 .i-title-wrapper {
     height: 100%;
     animation: move 10s ease-in-out infinite alternate;
-    border-style: solid;
-    border-radius: 10% 0% 0% 70%;
-    border-image: linear-gradient(135deg, rgb(255, 106, 0), rgb(212, 16, 203),  rgb(74,234,220)) 1;
 }
 
 
@@ -119,8 +114,6 @@ ul {
     font-size: 30px;
     align-items: center;
     justify-content: center;
-    /* font-weight: bold; */
-    /* background-color:rgb(61, 0, 85); */
     color: rgb(0, 255, 255);
 }
 
