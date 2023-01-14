@@ -42,17 +42,19 @@ ul {
 
 
 .i-intro {
-    font-size: 30px;
-    font-weight: 100;
+    font-size: 40px;
+    /* font-family: 'Inconsolata', monospace; */
+    font-family: 'Dancing Script', cursive;
+    font-weight: 10;
     color: rgb(73, 220, 227);
     text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.402);
-    font-weight: 700;
 }
 
 .i-name {
-    font-size: 100px;
+    font-size: 125px;
     color: rgb(221, 2, 255);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Moon Dance', cursive;
+    /* font-family: 'Dancing Script', cursive; */
     font-weight: 100;
     font-style: italic;
     text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.402);
