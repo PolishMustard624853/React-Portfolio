@@ -42,7 +42,7 @@ ul {
 
 
 .i-intro {
-    font-size: 40px;
+    font-size: 54px;
     /* font-family: 'Inconsolata', monospace; */
     font-family: 'Dancing Script', cursive;
     font-weight: 10;
@@ -51,7 +51,7 @@ ul {
 }
 
 .i-name {
-    font-size: 125px;
+    font-size: 115px;
     color: rgb(221, 2, 255);
     font-family: 'Moon Dance', cursive;
     /* font-family: 'Dancing Script', cursive; */
@@ -61,7 +61,7 @@ ul {
 }
 
 .i-nameJapan {
-    font-size: 50px;
+    font-size: 48px;
     color: rgb(221, 2, 255);
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
@@ -82,7 +82,7 @@ ul {
 
 
 .i-desc {
-    font-size: 20   px;
+    font-size: 20px;
     font-style: italic;
     color: rgb(0, 255, 255);
     font-weight: 200;

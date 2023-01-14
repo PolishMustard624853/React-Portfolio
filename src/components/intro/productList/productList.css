@@ -27,13 +27,14 @@
 }
 
 
-pl-desc {
+.pl-desc {
     margin: 20px 0px;
+    font-size: 36px;
 }
 
 .pl-list {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }

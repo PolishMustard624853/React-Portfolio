@@ -10,9 +10,7 @@ const ProductList = () => {
             <h1 className='pl-title'>Collaborative Projects</h1>
             <br></br>
             <p className='pl-desc'>
-          <h3>Not Financial Advice (left)</h3>
-          <h3>Big Bet Sports Club (right)</h3>
-          <h3>Hover over and click on images</h3>
+          <h3>*Not Financial Advice*</h3>
             <br></br>
             <br></br>
             “Your eyes can deceive you, don’t trust them.”
