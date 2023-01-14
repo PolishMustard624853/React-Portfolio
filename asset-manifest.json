@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.76ee3c9b.css",
-    "main.js": "/React-Portfolio/static/js/main.bb1e0415.js",
+    "main.css": "/React-Portfolio/static/css/main.1979fd8f.css",
+    "main.js": "/React-Portfolio/static/js/main.33d700d2.js",
     "static/media/me.jpg": "/React-Portfolio/static/media/me.1f0ffd2c3e9bb308d7c6.jpg",
     "static/media/eagleNebula.jpg": "/React-Portfolio/static/media/eagleNebula.9cbfae14d51001626c49.jpg",
     "static/media/bubbleNebula.jpg": "/React-Portfolio/static/media/bubbleNebula.419a4d5cfc3ed228e4ed.jpg",
@@ -12,11 +12,11 @@
     "static/media/github.png": "/React-Portfolio/static/media/github.fc497857196dc743cd9d.png",
     "static/media/phone.png": "/React-Portfolio/static/media/phone.d90a6d23cf5129d853bb.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.76ee3c9b.css.map": "/React-Portfolio/static/css/main.76ee3c9b.css.map",
-    "main.bb1e0415.js.map": "/React-Portfolio/static/js/main.bb1e0415.js.map"
+    "main.1979fd8f.css.map": "/React-Portfolio/static/css/main.1979fd8f.css.map",
+    "main.33d700d2.js.map": "/React-Portfolio/static/js/main.33d700d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.76ee3c9b.css",
-    "static/js/main.bb1e0415.js"
+    "static/css/main.1979fd8f.css",
+    "static/js/main.33d700d2.js"
   ]
 }
