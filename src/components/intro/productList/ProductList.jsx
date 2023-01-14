@@ -11,10 +11,7 @@ const ProductList = () => {
             <br></br>
             <p className='pl-desc'>
           <h3>Not Financial Advice (left)</h3>
-          <br></br>
           <h3>Big Bet Sports Club (right)</h3>
-            <br></br>
-            <br></br>
           <h3>Hover over and click on images</h3>
             <br></br>
             <br></br>
