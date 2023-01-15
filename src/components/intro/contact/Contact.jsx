@@ -25,7 +25,7 @@ const Contact = () => {
                         </a>
                     </div>
                     <div className='c-info-item'>
-                        <a href='mailto: polishmustard710@gmail.com' target='blank'>
+                        <a href='mailto: konaasenbu710@gmail.com' target='blank'>
                             <img src={Email} alt='' className='c-icon'/>
                         </a>
                     </div>
