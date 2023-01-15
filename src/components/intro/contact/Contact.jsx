@@ -4,12 +4,12 @@ import Email from '../../../assets/email.png'
 import Address from '../../../assets/address.png'
 import Twitter from '../../../assets/twitter.png'
 import Github from '../../../assets/github.png'
+// import Me from '../../../img/me.jpg'
 
 const Contact = () => {
   return (
 <section id='contact'>
     <div className='c'>
-        {/* <div className='c-bg'></div> */}
         <div className='c-wrapper'>
             <div className='c-left'>
                 <h1 className='c-title'>Let's join forces</h1>

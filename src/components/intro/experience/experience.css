@@ -1,8 +1,8 @@
 #experience {
   color: rgb(73, 220, 227);
   background-color:rgb(30, 0, 49);
-  border: 2px solid;
-  border-image: linear-gradient(135deg, rgb(30, 0, 49), rgb(30, 0, 49), rgb(73, 220, 227), rgb(73, 220, 227)) 1;
+  border: 1px solid;
+  border-image: linear-gradient(135deg, rgb(30, 0, 49), rgb(30, 0, 49), rgb(30, 0, 49), rgb(221, 2, 255), rgb(221, 2, 255), rgb(221, 2, 255)) 1;
 }
 
 
