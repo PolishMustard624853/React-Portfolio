@@ -29,35 +29,41 @@
 }
 
 .c-info-item-1 {
+    position: absolute;
     display: flex;
-    margin: 20px;
-    width: 20%;
+    top: 25%;
 }
 .c-info-item-2 {
+    position: absolute;
     display: flex;
-    margin: 40px;
-    width: 40%;
+    height: 35em;
+    top: 35%;
+    left: 25%;
 }
 .c-info-item-3 {
+    position: absolute;
     display: flex;
-    margin: 60px;
-    width: 60%;
+    height: 45em;
+    top: 45%;
+    left: 50%;
 }
 .c-info-item-4 {
+    position: absolute;
     display: flex;
-    margin: 80px;
-    width: 80%;
+    top: 55%;
+    left: 75%;
 }
 .c-info-item-5 {
+    position: absolute;
     display: flex;
-    margin: 100px;
-    font-weight: 600;
-    width: 100%;
+    width: 50%;
+    top: 65%;
+    left: 95%;
 }
 
 .c-icon {
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 75px;
     /* margin-right: 20px; */
     display: flex;
     
