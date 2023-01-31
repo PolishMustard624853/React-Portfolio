@@ -1,10 +1,11 @@
 import './contact.css'
 import Phone from '../../../assets/phone.png'
 import Email from '../../../assets/email.png'
-import Address from '../../../assets/address.png'
-import Twitter from '../../../assets/twitter.png'
+import Address from '../../../assets/planet.png'
+import Twitter from '../../../assets/bird.png'
 import Github from '../../../assets/github.png'
 // import Me from '../../../img/me.jpg'
+
 
 const Contact = () => {
   return (
