@@ -16,7 +16,7 @@
   
   .experience__container > div {
     border-radius: 35px 35px 35px 35px;
-    background: var(--color-bg-variant);
+    /* background: var(--color-bg-variant); */
     color: rgb(73, 220, 227);
     font-size: 24px;
     padding: 2.4rem 5rem;

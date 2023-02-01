@@ -1,8 +1,5 @@
 import React from 'react'
 import './experience.css'
-// import {BsPatchCheckFill} from 'react-icons/bs'
-import Ghost from '../../../assets/ghost.png'
-import Game from '../../../assets/game.png'
 import Certification from '../../../img/certification.jpg'
 import Js from '../../../assets/javascript.svg'
 import Ri from '../../../assets/Ri.png'
