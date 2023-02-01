@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.9aee5ede.css",
-    "main.js": "/React-Portfolio/static/js/main.4bcaf954.js",
+    "main.css": "/React-Portfolio/static/css/main.010b7f1f.css",
+    "main.js": "/React-Portfolio/static/js/main.e9dc846d.js",
     "static/media/me.jpg": "/React-Portfolio/static/media/me.1f0ffd2c3e9bb308d7c6.jpg",
     "static/media/eagleNebula.jpg": "/React-Portfolio/static/media/eagleNebula.9cbfae14d51001626c49.jpg",
     "static/media/bubbleNebula.jpg": "/React-Portfolio/static/media/bubbleNebula.419a4d5cfc3ed228e4ed.jpg",
     "static/media/certification.jpg": "/React-Portfolio/static/media/certification.ec85df40937c93ed3d24.jpg",
-    "static/media/game.png": "/React-Portfolio/static/media/game.adb32781f54427fd4487.png",
+    "static/media/death-star.png": "/React-Portfolio/static/media/death-star.3ec5131e88e2d444d4a0.png",
     "static/media/javascript.svg": "/React-Portfolio/static/media/javascript.659f21674318c6977302859ed48470e4.svg",
     "static/media/node.svg": "/React-Portfolio/static/media/node.da9d083e9b5e08173b3864f8b1ccdabe.svg",
     "index.html": "/React-Portfolio/index.html",
-    "main.9aee5ede.css.map": "/React-Portfolio/static/css/main.9aee5ede.css.map",
-    "main.4bcaf954.js.map": "/React-Portfolio/static/js/main.4bcaf954.js.map"
+    "main.010b7f1f.css.map": "/React-Portfolio/static/css/main.010b7f1f.css.map",
+    "main.e9dc846d.js.map": "/React-Portfolio/static/js/main.e9dc846d.js.map"
   },
   "entrypoints": [
-    "static/css/main.9aee5ede.css",
-    "static/js/main.4bcaf954.js"
+    "static/css/main.010b7f1f.css",
+    "static/js/main.e9dc846d.js"
   ]
 }
