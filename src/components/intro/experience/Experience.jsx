@@ -1,7 +1,17 @@
 import React from 'react'
 import './experience.css'
-import {BsPatchCheckFill} from 'react-icons/bs'
+// import {BsPatchCheckFill} from 'react-icons/bs'
+import Ghost from '../../../assets/ghost.png'
+import Game from '../../../assets/game.png'
 import Certification from '../../../img/certification.jpg'
+import Js from '../../../assets/javascript.svg'
+import Ri from '../../../assets/Ri.png'
+import Html from '../../../assets/html.png'
+import Node from '../../../assets/node.svg'
+import Mongo from '../../../assets/mongo.png'
+import mySql from '../../../assets/mysql.png'
+import Css from '../../../assets/css.png'
+import Bs from '../../../assets/bootstrap.png'
 
 const Experience = () => {
   return (
@@ -15,35 +25,35 @@ const Experience = () => {
       
       <div className="container experience__container">
         <div className="experience__frontend">
-          <h3>Frontend Development</h3>
-          <div className="experience__content">
+          <h3 icon="fa-regular fa-bracket-curly">Frontend Development</h3>
+                  <div className="experience__content">
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+              <img src={Html} className='experience__details-icon' />
               <div>
                 <h2>HTML</h2>
               </div>
             </article>
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+            <img src={Css} className='experience__details-icon' />
               <div>
                 <h2>CSS</h2>
 
               </div>
             </article>
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+            <img src={Js} className='experience__details-icon' />
               <div>
                 <h2>JavaScript</h2>
               </div>
             </article>
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+            <img src={Bs} className='experience__details-icon' />
               <div>
                 <h2>Bootstrap</h2>
               </div>
             </article>
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+              <img src={Ri} className='experience__details-icon' />
               <div>
                 <h2>React</h2>
               </div>
@@ -56,20 +66,20 @@ const Experience = () => {
         <h3>Backend Development</h3>
           <div className="experience__content">
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+            <img src={Node} className='experience__details-icon' />
               <div>
-                <h2>Node JS</h2>
+                <h2>Node.Js</h2>
               </div>
             </article>
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+            <img src={Mongo} className='experience__details-icon' />
               <div>
                 <h2>MongoDB</h2>
 
               </div>
             </article>
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+            <img src={mySql} className='experience__details-icon' />
               <div>
                 <h2>MySQL</h2>
               </div>

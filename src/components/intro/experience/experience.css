@@ -50,6 +50,8 @@
   
   .experience__details-icon {
     margin-top: 6px;
+    width: 35px;
+    height: 35px;
     /* color: var(--color-primary); */
     color: rgb(221, 2, 255);
   }
@@ -59,8 +61,8 @@
     top: 50%;
     left: 25%;
   }
-  
-  .e-img {
+
+.e-img {
   position: relative;
   background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)) padding-box, linear-gradient(45deg,  rgb(255, 0, 225), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgb(73, 220, 227)) border-box;
   

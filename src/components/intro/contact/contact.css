@@ -11,22 +11,27 @@
     border-image: linear-gradient(135deg, rgb(73, 220, 227), rgb(73, 220, 227), rgb(73, 220, 227), rgb(30, 0, 49),  rgb(73, 220, 227), rgb(30, 0, 49), rgb(30, 0, 49)) 1;
 }
 
+
+.c-title {
+    position: absolute;
+    margin: -95px 2px 2px -40px;
+    display: flex;
+    width: 100%;
+    top: 15%;
+    color: rgb(221, 2, 255);
+    font-size: 60px;
+    justify-content: center;
+}
+
 .c-wrapper {
     /* padding: 50px; */
     display: flex;
     padding: 5%;
     height: 100vh;
+    /* width: 100%; */
     display: flex;
     flex-direction: row;
-    justify-content: space-between, center;
-}
-
-.c-title {
-    color: rgb(221, 2, 255);
-    font-size: 60px;
-    height: 100vh;
-    width: 100%;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .c-info-item-1 {

@@ -30,13 +30,13 @@ const Contact = () => {
                     <div className='c-info-item-3'>
                         <a href='mailto: konaasenbu710@gmail.com' target='blank'>
                             <img src={Email} alt='' className='c-icon'/>
-                            <h3>イーメール</h3>
+                            <h3>メール</h3>
                         </a>
                     </div>
                     <div className='c-info-item-4'>
                         <a href='https://twitter.com/PolishMustard' target='blank'>
                             <img src={Twitter} alt='' className='c-icon'/>
-                            <h3>トウィター</h3>
+                            <h3>ツイッター</h3>
                         </a>
                     </div>
                     <div className='c-info-item-5'>
