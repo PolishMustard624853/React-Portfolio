@@ -13,14 +13,16 @@
 
 
 .c-title {
-    position: absolute;
-    margin: -95px 2px 2px -40px;
+    /* position: absolute; */
+    /* margin: -95px 2px 2px -40px; */
     display: flex;
     width: 100%;
+    right: 0%;
     top: 15%;
     color: rgb(221, 2, 255);
     font-size: 60px;
-    justify-content: center;
+    /* justify-content: center; */
+    align-items: center;
 }
 .c-title {
     position: absolute;
