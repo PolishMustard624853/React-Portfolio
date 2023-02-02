@@ -35,9 +35,8 @@ ul {
     flex: 1;
     position: relative;
     overflow: hidden;
-    /* border-radius: 35px 0px 0px 35px; */
     border-radius: 10% 0% 0% 70%;
-    box-shadow: 0 0 6px 6px rgba(9, 9, 9, 0.23);
+    box-shadow: 0 0 12px 12px rgba(9, 9, 9, 0.23);
 }
 
 

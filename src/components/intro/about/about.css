@@ -33,7 +33,7 @@
     position: absolute;
     top: 50px;
     left: 50px;
-    background-color: rgb(138, 0, 0);
+    /* background-color: rgb(138, 0, 0); */
     transform: rotate(10deg);
     transition: var(--transition);
 }
@@ -41,21 +41,23 @@
 .a-card {
     width: 80%;
     height: 70vh;
-    /* border-radius: 35px; */
+    border: 2px solid transparent;
+    /* border-color: rgb(0, 255, 255); */
     border-radius: 10% 30% 50% 70%;
-    /* border-radius: 50% 20% / 10% 40%; */
     position: relative;
     overflow: hidden;
-    box-shadow: 0 3px 3px 3px rgba(9, 9, 9, 0.23);
+    /* box-shadow: 0 3px 3px 3px rgba(9, 9, 9, 0.23); */
     transform: rotate(10deg);
     transition: var(--transition);
 }
 
 .a-card.bg:hover {
+    border-color: var(--color-primary-variant);
     transform: rotate(0);
 }
 
 .a-card:hover {
+    border-color: rgb(221, 2, 255);
     transform: rotate(0);
 }
 
