@@ -121,3 +121,26 @@
       padding: 2px;
     }
   }
+
+  @media screen and (max-width: 360px) {
+    .experience__content {
+      font-size: 8px;
+      width: 100%;
+    }
+    /* .experience__container {
+      width: 100%;
+      height: 100vh;
+      padding: 1px;
+    } */
+    .experience__content {
+      width: 25vh;
+      height: 50%;
+
+    }
+    h2 {
+      display: none;
+    }
+    h3 {
+      display: none;
+    }
+  }

@@ -137,14 +137,17 @@ ul {
 }
 
 @media screen and (max-width: 480px) {
-    .navigation-menu-ul {
+    /* .navigation-menu-ul {
         display: none;
-    }
+    } */
     .i {
         height: 100vh;
     }
     .i-intro {
-        font-size: 22px;
+    font-family: 'Dancing Script', cursive;
+    /* font-weight: 10; */
+    color: rgb(73, 220, 227);
+    text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.402);
     }
     .i-desc {
         font-size: 12px;
@@ -168,3 +171,40 @@ ul {
     }
     
 }
+
+@media screen and (max-width: 360px) {
+    .navigation-menu-ul {
+        display: none;
+    }
+    .i {
+        height: 100vh;
+    }
+    .i-intro {
+        font-family: 'Dancing Script', cursive;
+        /* font-weight: 10; */
+        color: rgb(73, 220, 227);
+        /* text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.402); */
+    }
+    .i-desc {
+        font-size: 12px;
+    }
+    .i-name {
+        font-size: 36px;
+        align-items: center;
+        justify-content: center;
+    }
+    .i-nameJapan {
+        font-size:22px;
+    }
+    .i-right {
+        display: none;
+    }
+    .i-img {
+        display: none;
+    }
+    .i-bg {
+        display: none;
+    }
+    
+}
+

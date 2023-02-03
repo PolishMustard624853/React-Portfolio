@@ -26,34 +26,31 @@ const Experience = () => {
                   <div className="experience__content">
             <article className='experience__details'>
               <img src={Html} className='experience__details-icon' />
-              <div>
+
                 <h2>HTML</h2>
-              </div>
+
             </article>
             <article className='experience__details'>
             <img src={Css} className='experience__details-icon' />
-              <div>
+
                 <h2>CSS</h2>
 
-              </div>
             </article>
             <article className='experience__details'>
             <img src={Js} className='experience__details-icon' />
-              <div>
                 <h2>JavaScript</h2>
-              </div>
             </article>
             <article className='experience__details'>
             <img src={Bs} className='experience__details-icon' />
-              <div>
+
                 <h2>Bootstrap</h2>
-              </div>
+
             </article>
             <article className='experience__details'>
               <img src={Ri} className='experience__details-icon' />
-              <div>
+
                 <h2>React</h2>
-              </div>
+
             </article>
           </div>
         </div>

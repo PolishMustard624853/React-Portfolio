@@ -95,3 +95,27 @@
         top: 50%
     }
 }
+@media screen and (max-width: 360px) {
+    .c-title {
+        font-size: 42px;
+        align-items: center;
+        text-align: center;
+        padding: 18px;
+    }
+    .c-icon {
+        width: 35px;
+        height: 35px;
+    }
+    .c h1 {
+        font-size: 16px;
+        text-align: center;
+        align-items: center;
+    }
+    .c-info-item-1 {
+        left: 70px;
+        top: 150px;
+    }
+    .c-info-item-4 {
+        top: 50%
+    }
+}
