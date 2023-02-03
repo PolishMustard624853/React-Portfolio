@@ -10,23 +10,6 @@
     box-shadow: 0 4px 4px 4px rgba(9, 9, 9, 0.23);
 }
 
-.p-browser {
-    height: 20px;
-    background-color: rgb(216, 30, 222);
-    display: flex;
-    align-items: center;
-    position: sticky;
-    z-index: 2;
-}
-
-.p-circle {
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    margin: 3px;
-    background-color: rgb(0, 229, 255);
-}
-
 .p-img {
     width: 100%;
     height: -175%;
