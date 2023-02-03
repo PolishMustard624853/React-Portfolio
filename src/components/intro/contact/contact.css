@@ -8,7 +8,7 @@
     overflow: hidden;
     background-color:rgb(22, 0, 36);
     border: 1px solid; 
-    border-image: linear-gradient(135deg, rgb(30, 0, 49),  rgb(73, 220, 227), rgb(30, 0, 49), rgb(30, 0, 49)) 1;
+    border-color: rgb(73, 220, 227);
 }
 
 

@@ -136,8 +136,35 @@ ul {
     right: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
     .navigation-menu-ul {
         display: none;
     }
+    .i {
+        height: 100vh;
+    }
+    .i-intro {
+        font-size: 22px;
+    }
+    .i-desc {
+        font-size: 12px;
+    }
+    .i-name {
+        font-size: 36px;
+        align-items: center;
+        justify-content: center;
+    }
+    .i-nameJapan {
+        font-size:22px;
+    }
+    .i-right {
+        display: none;
+    }
+    .i-img {
+        display: none;
+    }
+    .i-bg {
+        display: none;
+    }
+    
 }

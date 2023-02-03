@@ -38,3 +38,15 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+@media screen and (max-width: 480px) {
+    .pl {
+        height: 100vh;
+    }
+    .pl-title {
+        font-size: 48px;
+    }
+    .pl-desc {
+        display: none;
+    }
+}

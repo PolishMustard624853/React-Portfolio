@@ -5,3 +5,7 @@
     height: 16vh;
     text-align: center;
 }
+
+@media screen and (max-width:480px) {
+    .f {font-size: 14px;}
+}

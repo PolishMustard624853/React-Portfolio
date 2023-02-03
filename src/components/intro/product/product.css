@@ -27,11 +27,20 @@
 
 @media screen and (max-width: 480px) {
 .p {
-    width: 40%;
-    height: 20vh;
-    }
-}
-
-.p-img {
     width: 100%;
+    border: 1px solid transparent;
+    height: 15vh;
+    background: linear-gradient(#fff, #fff) padding-box, linear-gradient(45deg, purple, )rgb(249, 91, 34) border-box;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 4px 4px rgba(9, 9, 9, 0.23);
+    }
+    .p-img {
+        width: 100%;
+        height: -175%;
+        transition: all 10s ease;
+    }
+    .p:hover .p-img {
+        transform: translateY(-35%);
+    }
 }
