@@ -117,6 +117,7 @@
       width: 100%;
     }
     .experience__container {
-      width: 85%;
+      width: 100%;
+      padding: 2px;
     }
   }
