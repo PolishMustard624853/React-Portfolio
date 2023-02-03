@@ -34,7 +34,7 @@
     top: 50px;
     left: 50px;
     /* background-color: rgb(138, 0, 0); */
-    transform: rotate(10deg);
+    transform: rotate(-10deg);
     transition: var(--transition);
 }
 
@@ -46,8 +46,8 @@
     border-radius: 10% 30% 50% 70%;
     position: relative;
     overflow: hidden;
-    /* box-shadow: 0 3px 3px 3px rgba(9, 9, 9, 0.23); */
-    transform: rotate(10deg);
+    box-shadow: 5px 5px 0px 5px rgba(0, 0, 0, 0.151);
+    transform: rotate(20deg);
     transition: var(--transition);
 }
 

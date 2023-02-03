@@ -26,7 +26,7 @@ nav {
     background: rgb(0, 229, 255);
     color: rgb(221, 2, 255);
     /* transform: rotate(45deg); */
-    transform: rotate(180deg);
+    transform: rotateX(360deg);
     transition: var(--transition);
   }
   
