@@ -135,7 +135,9 @@
     .experience__content {
       width: 25vh;
       height: 50%;
-
+    }
+    .e-img {
+      border: 1.5px solid transparent;
     }
     h2 {
       display: none;
