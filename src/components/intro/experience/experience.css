@@ -122,7 +122,7 @@
     }
   }
 
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 428px) {
     .experience__content {
       font-size: 8px;
       width: 100%;

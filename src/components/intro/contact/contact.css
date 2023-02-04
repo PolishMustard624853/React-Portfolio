@@ -95,7 +95,7 @@
         top: 50%
     }
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 428px) {
     .c-title {
         font-size: 42px;
         align-items: center;
