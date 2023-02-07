@@ -1,12 +1,9 @@
 :root {
     --color-bg: rgb(221, 2, 255);
     --color-bg-variant: #2c2c6c;
-    --color-primary: rgb(73, 220, 227);
-    --color-primary-variant: rgb(73, 220, 227);
-    --color-white: #fff;
-    --color-light: rgba(255, 255, 255, 0.6);
-  
-    --transition: all 400ms ease;
+    --color-primary: rgb(0, 229, 255);
+
+    --transition: all 1000ms ease;
   
     --container-width-lg: 75%;
     --container-width-md: 86%;

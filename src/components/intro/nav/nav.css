@@ -25,7 +25,6 @@ nav {
   nav a:hover {
     background: rgb(0, 229, 255);
     color: rgb(221, 2, 255);
-    /* transform: rotate(45deg); */
     transform: rotateX(360deg);
     transition: var(--transition);
   }
