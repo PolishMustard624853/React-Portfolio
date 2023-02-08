@@ -1,3 +1,7 @@
+:root {
+    --transition: all 400ms ease;
+}
+
 .a {
     height: 100vh;
     display: flex;
