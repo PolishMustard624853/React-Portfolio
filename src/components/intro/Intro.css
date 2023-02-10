@@ -136,6 +136,7 @@ ul {
     right: 0;
 }
 
+/* 320px, 768px, and 1200px are the most commonly used */
 @media screen and (max-width: 480px) {
     /* .navigation-menu-ul {
         display: none;
@@ -172,6 +173,8 @@ ul {
     
 }
 
+
+
 @media screen and (max-width: 428px) {
     .navigation-menu-ul {
         display: none;
@@ -181,9 +184,7 @@ ul {
     }
     .i-intro {
         font-family: 'Dancing Script', cursive;
-        /* font-weight: 10; */
         color: rgb(73, 220, 227);
-        /* text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.402); */
     }
     .i-desc {
         font-size: 12px;
@@ -207,3 +208,4 @@ ul {
     }
     
 }
+
