@@ -21,6 +21,7 @@ const About = () => {
 
         <p className='a-sub'>
         I am a Front End Web Developer focusing on HTML, CSS, JavaScript and React. I completed the Full Stack Web Development Coding Boot Camp through Northwestern University, 2022. 
+        On top of Web Development, I am studying mathematics online via Udemy and as I continue to learn, I will be applying and implementing anything that I can come up with, here in my portfolio!
         </p>
         <p className='a-desc'>
         “I am enough of an artist to draw freely upon my imagination. Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.”

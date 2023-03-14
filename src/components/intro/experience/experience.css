@@ -15,7 +15,8 @@
   .experience__container > div {
     border-radius: 35px 35px 35px 35px;
     /* background: var(--color-bg-variant); */
-    color: rgb(73, 220, 227);
+    /* color: rgb(73, 220, 227); */
+    color: rgb(255, 247, 0);
     font-size: 24px;
     padding: 2.4rem 5rem;
     border: 1px solid transparent;
@@ -44,6 +45,7 @@
   .experience__details {
     display: flex;
     gap: 1rem;
+    
   }
   
   .experience__details-icon {

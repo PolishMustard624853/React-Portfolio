@@ -25,8 +25,10 @@ nav {
   nav a:hover {
     background: rgb(0, 229, 255);
     color: rgb(221, 2, 255);
-    transform: rotateX(360deg);
+    /* transform: rotateY(180deg); */
     transition: var(--transition);
+    transform: scaleX(1.1) scaleY(1.2);
+    transform: translateY(-5px);
   }
   
   nav a.active {

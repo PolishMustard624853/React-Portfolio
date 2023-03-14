@@ -10,11 +10,13 @@ const ProductList = () => {
             <h1 className='pl-title'>Collaborative Projects</h1>
             <br></br>
             <p className='pl-desc'>
-          <h3>*Not Financial Advice*</h3>
-            <br></br>
-            <br></br>
             “Your eyes can deceive you, don’t trust them.”
             </p>
+            <br></br>
+          <h3>*Not Financial Advice*
+            <br></br>
+            ∨ ∨            ∨  ∨
+          </h3>
         </div>
         <div className='pl-list'>
           {products.map((item) => (

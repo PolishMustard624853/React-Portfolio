@@ -124,7 +124,9 @@ ul {
 .i-desc {
     font-size: 20px;
     font-style: italic;
-    color: rgb(0, 255, 255);
+    /* color: rgb(0, 255, 255); */
+    color: rgb(255, 247, 0);
+
     font-weight: 200;
 }
 

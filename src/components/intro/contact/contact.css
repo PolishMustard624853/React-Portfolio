@@ -17,7 +17,7 @@
     display: flex;
     width: 100%;
     top: 15%;
-    color: rgb(221, 2, 255);
+    /* color: rgb(221, 2, 255); */
     font-size: 60px;
     justify-content: center;
 }
